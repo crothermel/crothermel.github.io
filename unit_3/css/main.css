@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 { <head 
  	background: img src = "unit_3/images/wallpaper2.jpg"> 
  	<h1 color: rgb (0,45,43); font-family: "Bodoni MT Black", "Times New Roman"; font-size: 150px; font-weight: normal; font-style: italic; text-align: center;>
@@ -17,3 +18,18 @@
  	font-family: "Bodoni MT Black", "Times New Roman";
  	font-size: 60px; 
  }
+=======
+body {
+	color: rgb(0,45,43);
+	background:url(../Images/wallpaper.jpg);
+	font-family: "Bell MT", "Times New Roman"; 
+	font-size: 24px; 
+	font-weight: normal; 
+	font-style: italic; 
+	text-align: center;
+}
+h1 {
+	font-family: "Bodoni MT Black", "Times New Roman";
+	font-size: 60px; 
+}
+>>>>>>> origin/master
