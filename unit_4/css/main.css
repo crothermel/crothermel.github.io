@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Oswald');
+body {
+	color: rgb(0,45,43);
+	background:url(../Images/textured_paper.png); 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align: center;
+	padding: 0;
+}
+h1 {
+	font-family: Parisienne, sans-serif;
+	font-size: 7em; 
+	padding: 0;
+}
+p {
+	font-family: Oswald, Arial; sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	padding: 1em;
+}
+nav {
+	font-family: Oswald, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1.5px
+	font-size: 1em;
+}
+#imagelist {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+}
+footer {
+	font-family: Oswald; Arial; sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em;
+}
+a{
+	color: inherit; text-decoration: none;
+	letter-spacing: 1.5px;
+}
