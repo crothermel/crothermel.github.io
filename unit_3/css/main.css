@@ -8,10 +8,11 @@ body {
 	color: rgb(0,45,43);
 	background:url(../Images/textured_paper.png);
 	padding: 0;
+	font-size: adjust;
 }
 h1 {
-	font-family: Parisienne, sans-serif;
-	font-size: 7em; 
+	font-family: Parisienne; sans-serif;
+	font-size: 10em; 
 	padding: 0;
 	text-align: center;
 	font-weight: normal; 
@@ -32,6 +33,11 @@ nav {
 	letter-spacing: 1.5px
 	font-size: 1em;
 	text-align: center;
+	margin: 4em;
+	padding: 4em;
+}
+a:hover {
+	color: #879ab7;
 }
 #imagelist {
 	margin: 20px auto;
