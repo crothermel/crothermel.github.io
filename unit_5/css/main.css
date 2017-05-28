@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Parisienne|Oswald');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	color: rgb(0,45,43);
-	background:url(../Images/textured_paper.png); 
-	font-weight: normal; 
-	font-style: normal; 
-	text-align: center;
+	background:url(../Images/canvas.jpg);
 	padding: 0;
+	align-content: center;
+}
+header {
+	text-align: center;
 }
 h1 {
-	font-family: Parisienne, sans-serif;
-	font-size: 7em; 
-	padding: 0;
+	font-family: Parisienne; sans-serif;
+	font-size: 17em; 
+	text-align: center;
+	font-weight: normal; 
+	font-style: normal; 
 }
 p {
 	font-family: Oswald, Arial; sans-serif;
@@ -19,17 +27,37 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	padding: 1em;
+	text-align: center;
 }
 nav {
 	font-family: Oswald, Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1.5px
 	font-size: 1em;
+	text-align: center;
+	margin: 1em;
+	padding: 1em;
+}
+nav a{
+	margin: 2em;
+}
+a:hover {
+	color: #879ab7;
 }
 #imagelist {
-	display: inline-block;
-	margin: 20px;
+	margin: 20px auto;
 	padding: 20px;
+	max-width: 900px;
+}
+.thumbnails {
+	display: block;
+	width: 33.333%;
+	padding: 5px;
+	float: left;
+}
+.thumbnails img {
+	width: 100%;
+	display: block;
 }
 footer {
 	font-family: Oswald; Arial; sans-serif;
@@ -40,4 +68,9 @@ footer {
 a{
 	color: inherit; text-decoration: none;
 	letter-spacing: 1.5px;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear:both;
 }
