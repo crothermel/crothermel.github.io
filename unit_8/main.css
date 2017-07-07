@@ -116,9 +116,6 @@ a{
 	padding: 2em;
 }
 @media only screen and (max-width: 1294px) {
-	#headerimg {
-		width: 50%;
-	}
 	h1 {
 		text-align: center;
 		width: auto;
@@ -132,4 +129,5 @@ a{
 		font-size: 1.3em;
 		float: none;
 	}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 }
